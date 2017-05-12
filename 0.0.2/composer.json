@@ -1,0 +1,19 @@
+{
+    "name": "GrupoCaduS/Global_Tactical",
+    "description": "Proyecto minijuego",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FuryNocturn",
+            "email": "familia-fernandez@hotmail.es"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "Global_Tactical\\": "src/"
+        }
+    }
+}
